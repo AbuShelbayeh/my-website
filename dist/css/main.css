@@ -35,8 +35,19 @@ body {
     
 }
 
-@media screen and (max-width: 662px) {
+#myEmail {
+    display: none;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 660px) {
     body {
         padding: 0 .5em;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    body {
+        font-size: 1.5em;
     }
 }
