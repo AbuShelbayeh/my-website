@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #113355;
+    background-image: url("../img/dust_scratches.png");
+    font-size: 2em;
+    text-align: center;
+    padding-top: 25vh;
+    color: rgb(56, 56, 56);
+    font-family: 'El Messiri', sans-serif;
+}
+
+
+#showEmailButton {
+    padding: .6em 1em .5em 1em;
+    background-color: rgb(56, 56, 56);
+    border: none;
+    color: #eee;
+    border-radius: .09em;
+    border-bottom: .1em solid rgb(56, 56, 56);
+    font-size: .9em;
+
+    transition-property: background-color border-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+#showEmailButton:hover {
+    cursor: pointer;
+    background-color: rgb(66, 66, 66);
+    border-color: rgb(26, 25, 25);
+    
+}
+
+@media screen and (max-width: 662px) {
+    body {
+        padding: 0 .5em;
+    }
+}
