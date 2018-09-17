@@ -8,9 +8,12 @@ body {
     background-image: url("../img/dust_scratches.png");
     font-size: 2em;
     text-align: center;
-    padding-top: 25vh;
+    /* padding-top: 25vh; */
     color: rgb(56, 56, 56);
     font-family: 'El Messiri', sans-serif;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
 }
 
 
@@ -20,7 +23,7 @@ body {
     border: none;
     color: #eee;
     border-radius: .09em;
-    border-bottom: .1em solid rgb(56, 56, 56);
+    border-bottom: .1em solid rgb(163, 79, 79);
     font-size: .9em;
 
     transition-property: background-color border-color;
@@ -31,7 +34,7 @@ body {
 #showEmailButton:hover {
     cursor: pointer;
     background-color: rgb(66, 66, 66);
-    border-color: rgb(26, 25, 25);
+    border-color: rgb(177, 137, 137);
     
 }
 
