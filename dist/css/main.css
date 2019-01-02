@@ -39,9 +39,10 @@ body {
 }
 
 #myEmail {
-    display: none;
+    /* display: relative;   */
     word-wrap: break-word;
 }
+
 
 @media screen and (max-width: 660px) {
     body {
