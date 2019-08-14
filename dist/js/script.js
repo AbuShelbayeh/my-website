@@ -1,4 +1,4 @@
-const myEmail = "me@saleemabushelbayeh.com";
+const myEmail = "saleem@abushelbayeh.com";
 var counter = 0;
 // function showEmail() {
 //     var newPara = document.createElement("p");
