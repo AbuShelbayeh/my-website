@@ -1,0 +1,9 @@
+@import "reset";
+@import "typography";
+@import "colors";
+@import "variables";
+
+//* General styles
+body,html {
+  font-family: $main-font;
+}
